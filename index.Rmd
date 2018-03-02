@@ -1,0 +1,122 @@
+---
+title: "lsss_course - Hafró/MFRI April 2018"
+author: "Training course and workshop in the use of LSSS at Hafró/MFRI, April 2018"
+output:
+  html_document: default
+bibliography: lsss_course.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Preamble
+___
+
+### The course material
+
+Course materials are open source, meaning that all materials, i.e. presentations, code, etc is made freely available and may be redistributed and modified (with wich license these pages' framework is lifted from 'http://github.com/fishvice/tcrenv').
+
+* The source code for the course material is located at: https://github.com/sigurdurthorjonsson/lsss_course
+* The course product is rendered at: http://www.hafro.is/~sigurdur/lsss_course
+
+### In preparation
+
+The aim of the course is to train Hafró-personnel in the use of the
+acoustic post-processing program LSSS (for Large Scale Survey
+System). The program is written and maintained by Marec, a
+collaboration between Havforskningen/IMR and Christian Michelsen
+Research/CMR in Bergen. The software is licenced and the user
+generally has to have a licence dongle on the machine running the
+program.
+ 
+**Prior to the course** please try to install:
+
+* LSSS version 2.3.0, for a local install follow Gunnar Örvarsson's instructions:
+    - Windows: Windows version of LSSS 2.3.0 is available on a package-directory, m:\inst\lsss on shore on server hafkaldi, on board the vessels on server stórsjór (on Árni) or úthaf (on Bjarni)).
+
+    - linux: Linux version can be updated to 2.3.0 (as root) with:
+
+> cd /net/hafkaldi.hafro.is/opt/hafkaldi/local/src/linux
+
+> make lsss-update
+
+    - Mac, go figure, ...
+
+Hafró has 5 dongles which can be borrowed for periods of time not
+colliding with high acoustic survey activity (January/February,
+September/October). __Marec/IMR in Bergen will open up for dongle-less
+use of the program in April.__
+
+For those that want to get a head we recommend the following reading material:
+
+  * Simmonds & MacLennan's Fisheries Acoustics [@simmonds2005]
+  * The ICES calibration CRR [@demer2015]
+  * Rolf _et al._'s recent paper on categorization with LSSS [@korneliussen2017]
+
+# A draft workplan
+___
+
+## Part I
+___
+
+The course will be held in the meeting room on the first floor, there
+is space for 10-15 people, on an 'early bird gets a seat' basis. Bring
+your lap- or desktop. The preliminary plan is to meet at __13:00-16:00__ on days the course is given or we meet for a workshop. _Note that the themes and intitals are tentative, and we may shuffle things around._
+
+### Thursday, 2018-04-05
+
+* [Introduction to LSSS](404.html) - sþj
+* [Basic use of LSSS](404.html) - sþj 
+* [Scrutiny workshop](404.html) - everyone
+    
+### Friday, 2018-04-06
+
+* [Scrutiny workshop continued](404.html) - everyone
+* [Comparison of results](404.html) - everyone
+
+### Friday, 2018-04-13
+
+* [Categorization of blue whiting](404.html) - ahó, gjó, sþj, ... 
+
+### Monday, 2018-04-16
+
+* [Working the bottom](404.html) - bb, jmb, sþj
+
+### Monday, 2018-04-23
+
+* [Multifrequency categorization with LSSS](404.html) - pr
+
+### Tuesday, 2018-04-23
+
+* [Calibration](404.html) - pr
+
+### Thursday, 2018-04-23
+
+* [Open for suggestions](404.html) - everyone
+
+### Friday, 2018-04-27
+
+* 13:00 - "Happy hour"
+    * [Any other LSSS-buissness]()
+    * [Next steps in LSSS](404page.html)
+
+## Part II
+___
+
+... we'll probably get instructors from IMR/Marec for the next LSSS-course, but here are some aspects of LSSS and acoustic data collection and house-keeping that need to be considered:
+
+* [Broad-band capable echosounders, big data](404page.html) - nn
+* [Standardizing Hafró/MFRI processing of acoustics data](404.html) - nn
+* [Central DB of survey results, read-only](404.html) - nn
+* ...
+
+## Addendums
+
+* [Bits and pieces](404.html) - collection of stuff made in the follow-up to the course and workshop.
+
+# Citations
+___
+
+
