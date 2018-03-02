@@ -19,7 +19,7 @@ ___
 Course materials are open source, meaning that all materials, i.e. presentations, code, etc is made freely available and may be redistributed and modified (with wich license these pages' framework is lifted from 'http://github.com/fishvice/tcrenv').
 
 * The source code for the course material is located at: https://github.com/sigurdurthorjonsson/lsss_course
-* The course product is rendered at: http://www.hafro.is/~sigurdur/lsss_course
+* The course product is TO BE rendered LATER IN MARCH at: http://www.hafro.is/~sigurdur/lsss_course
 
 ### In preparation
 
