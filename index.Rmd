@@ -14,14 +14,21 @@ knitr::opts_chunk$set(echo = TRUE)
 # Preamble
 ___
 
-### The course material
+## The course material
 
-Course materials are open source, meaning that all materials, i.e. presentations, code, etc is made freely available and may be redistributed and modified (with wich license these pages' framework is lifted from 'http://github.com/fishvice/tcrenv').
+Course materials prepared at Hafró are open source, meaning that presentations, code, etc is made freely available and may be
+redistributed and modified (with wich license these pages' framework
+is lifted from 'http://github.com/fishvice/tcrenv').
 
-* The source code for the course material is located at: https://github.com/sigurdurthorjonsson/lsss_course
-* The course product is TO BE rendered LATER IN MARCH at: http://www.hafro.is/~sigurdur/lsss_course
+* The source code for the course material is located at:
+  https://github.com/sigurdurthorjonsson/lsss_course
 
-### In preparation
+* The course product will be rendered LATER IN MARCH and during APRIL at:
+  http://www.hafro.is/~sigurdur/lsss_course
+  
+__NOTE This does not apply automatically data sets and IMR materials__ _CHECK_WITH Rolf for the IMR course materials, and owners of data_  
+
+## In preparation
 
 The aim of the course is to train Hafró-personnel in the use of the
 acoustic post-processing program LSSS (for Large Scale Survey
@@ -34,7 +41,11 @@ program.
 **Prior to the course** please try to install:
 
 * LSSS version 2.3.0, for a local install follow Gunnar Örvarsson's instructions:
-    - Windows: Windows version of LSSS 2.3.0 is available on a package-directory, m:\inst\lsss on shore on server hafkaldi, on board the vessels on server stórsjór (on Árni) or úthaf (on Bjarni)).
+
+    - Windows: Windows version of LSSS 2.3.0 is available on a
+      package-directory, m:\inst\lsss on shore on server hafkaldi, on
+      board the vessels on server stórsjór (on Árni) or úthaf (on
+      Bjarni)).
 
     - linux: Linux version can be updated to 2.3.0 (as root) with:
 
@@ -55,6 +66,77 @@ For those that want to get a head we recommend the following reading material:
   * The ICES calibration CRR [@demer2015]
   * Rolf _et al._'s recent paper on categorization with LSSS [@korneliussen2017]
 
+## Collection of material from previous courses and acoustic data on Hafró-net
+
+Acoustic data and course materials from previous LSSS-courses, held both at Hafró and at IMR, Bergen, are available on file server Hafrún, accessible as `/u5/bergmal` in linux, Windows users can gain access by typing in `\\hafrun\u5\` in the address bar of Windows File Explorer and then descend into the folder `bergmal`. 
+
+### LSSS-course materials
+
+Course materials from a course held at IMR in Bergen in Febrary 2018 are are available, courtesy of Rolf Korneliussen and colleagues, in folder:
+
+`LSSS_namskeid/LSSS_Bergen_Feb_2018`
+
+Here's a listing of 4 directories pdf-s of help files and presentations:
+
+
+#### PDF-help accompanying LSSS
+
+hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1012] ls 1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/*.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/DeepVision.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/Korona.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/LSSS.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROFOS-Korona.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROFOS.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROMUS-korona.pdf
+1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROMUS.pdf
+
+#### Theory of acoustics
+
+hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1013] ls 2_ACOUSTICS/*.pdf
+2_ACOUSTICS/14_Advanced__Broadband_acoustics.pdf
+2_ACOUSTICS/General_fishery_acoustics.pdf
+2_ACOUSTICS/Multifrequency_acoustics.pdf
+2_ACOUSTICS/Synthesis_2002_11_27_corrected.pdf
+
+#### Course materials from the basics part of an LSSS-course
+
+hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1014] ls 3_LSSS_BASIC/*.pdf
+3_LSSS_BASIC/0_Basic_LSSS__Norway.pdf
+3_LSSS_BASIC/10Basic_LSSS__What_is_new_in_V230.pdf
+3_LSSS_BASIC/14_Advanced__Broadband_acoustics.pdf
+3_LSSS_BASIC/1_Basic_LSSS__Introductions.pdf
+3_LSSS_BASIC/2_Basic_LSSS__Getting_started.pdf
+3_LSSS_BASIC/3_Basic_LSSS__Installation__selfstudy.pdf
+3_LSSS_BASIC/4_Basic_LSSS__Application_setup__selfstudy.pdf
+3_LSSS_BASIC/5_Basic_LSSS__Survey_FirstTimeSetup_selfstudy.pdf
+3_LSSS_BASIC/6_Basic_LSSS__Scrutinize.pdf
+3_LSSS_BASIC/7_Basic_LSSS__Report_generation_and_export.pdf
+3_LSSS_BASIC/8_Basic_LSSS__Data_administration.pdf
+3_LSSS_BASIC/9_Basic_LSSS__Troubleshooting_and_tips.pdf
+
+#### Course materials from the advanced part of an LSSS-course
+
+hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1015] ls 4_LSSS_ADVANCED/*.pdf
+4_LSSS_ADVANCED/11_Advanced_KORONA__Introductions.pdf
+4_LSSS_ADVANCED/12_Advanced_KORONA__Design.pdf
+4_LSSS_ADVANCED/13_Advanced_KORONA_Getting_started.pdf
+4_LSSS_ADVANCED/14_Advanced__Broadband_acoustics.pdf
+4_LSSS_ADVANCED/15_Advanced_LSSS_Broadband_functionality.pdf
+4_LSSS_ADVANCED/16_Advanced_KORONA_4_ModuleSetup.pdf
+4_LSSS_ADVANCED/17_Advanced_KORONA_6_Scrutinize_s.pdf
+4_LSSS_ADVANCED/18_Advanced_KORONA_7_Categorization.pdf
+4_LSSS_ADVANCED/19_Advanced_KORONA_8_Troubleshooting_and_tip_s.pdf
+
+
+
+### A significant proportion of the acoustic data collection of
+    Hafró is available in the directory `EK60raw`, organized in
+    subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes survey
+    vessel). Course/workshop participants can locate surveys of
+    interest, copy them to their personal drives and set up analysis
+    in LSSS.
+
+ 
 # A draft workplan
 ___
 
@@ -63,15 +145,18 @@ ___
 
 The course will be held in the meeting room on the first floor, there
 is space for 10-15 people, on an 'early bird gets a seat' basis. Bring
-your lap- or desktop. The preliminary plan is to meet at __13:00-16:00__ on days the course is given or we meet for a workshop. _Note that the themes and intitals are tentative, and we may shuffle things around._
+your lap- or desktop. The preliminary plan is to meet at
+__13:00-16:00__ on days the course is given / we meet for a
+workshop. _Note that the themes and intitals are tentative, and we may
+shuffle things around._
 
-### Thursday, 2018-04-05
+### Wednesday, 2018-04-04
 
 * [Introduction to LSSS](404.html) - sþj
 * [Basic use of LSSS](404.html) - sþj 
 * [Scrutiny workshop](404.html) - everyone
     
-### Friday, 2018-04-06
+### Thursday, 2018-04-05
 
 * [Scrutiny workshop continued](404.html) - everyone
 * [Comparison of results](404.html) - everyone
@@ -88,11 +173,11 @@ your lap- or desktop. The preliminary plan is to meet at __13:00-16:00__ on days
 
 * [Multifrequency categorization with LSSS](404.html) - pr
 
-### Tuesday, 2018-04-23
+### Tuesday, 2018-04-24
 
-* [Calibration](404.html) - pr
+* [Multifrequency categorization with LSSS contd.](404.html) - pr
 
-### Thursday, 2018-04-23
+### Thursday, 2018-04-26
 
 * [Open for suggestions](404.html) - everyone
 
@@ -102,14 +187,25 @@ your lap- or desktop. The preliminary plan is to meet at __13:00-16:00__ on days
     * [Any other LSSS-buissness]()
     * [Next steps in LSSS](404page.html)
 
-## Part II
+## Part II or to be continued
 ___
 
-... we'll probably get instructors from IMR/Marec for the next LSSS-course, but here are some aspects of LSSS and acoustic data collection and house-keeping that need to be considered:
+Prior to multi-vessels surveys we will aim for 1/2- or 1-day crash courses for the personnel manning the aocustic intstruments.
 
-* [Broad-band capable echosounders, big data](404page.html) - nn
-* [Standardizing Hafró/MFRI processing of acoustics data](404.html) - nn
-* [Central DB of survey results, read-only](404.html) - nn
+We'll probably get instructors from IMR/Marec for an LSSS-course in the not to distant future. 
+
+Here are some aspects of LSSS and acoustic data collection and house-keeping that need to be considered:
+
+* [Utilization of sonar in fisheries research](404page.html)
+
+* [Broad-band capable echosounders, big data](404page.html)
+
+* [Standardizing Hafró/MFRI processing of acoustics data](404.html)
+
+* [Central DB of survey results, read-only](404.html)
+
+* [Testing out Deep Vision acoustic integration with LSSS](https://www.deepvision.no/deep-vision-acoustic-integration)
+
 * ...
 
 ## Addendums
