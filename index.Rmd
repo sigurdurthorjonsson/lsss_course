@@ -114,34 +114,34 @@ shuffle things around._
 
 ### Wednesday, 2018-04-04
 
-* [Introduction to LSSS](404.html) - sþj
-* [Basic use of LSSS](404.html) - sþj 
-* [Scrutiny workshop](404.html) - everyone
+* [Introduction to LSSS](404page.html) - sþj
+* [Basic use of LSSS](404page.html) - sþj 
+* [Scrutiny workshop](404page.html) - everyone
     
 ### Thursday, 2018-04-05
 
-* [Scrutiny workshop continued](404.html) - everyone
-* [Comparison of results](404.html) - everyone
+* [Scrutiny workshop continued](404page.html) - everyone
+* [Comparison of results](404page.html) - everyone
 
 ### Monday, 2018-04-16
 
-* [Categorization of blue whiting](404.html) - ahó, gjó, sþj, ... 
+* [Categorization of blue whiting](404page.html) - ahó, gjó, sþj, ... 
 
 ### Thursday, 2018-04-17
 
-* [Bottom as a reference](404.html) - bb, jmb, sþj
+* [Bottom as a reference](404page.html) - bb, jmb, sþj
 
 ### Monday, 2018-04-23
 
-* [Multifrequency categorization with LSSS](404.html) - pr
+* [Multifrequency categorization with LSSS](404page.html) - pr
 
 ### Tuesday, 2018-04-24
 
-* [Multifrequency categorization with LSSS contd.](404.html) - pr
+* [Multifrequency categorization with LSSS contd.](404page.html) - pr
 
 ### Thursday, 2018-04-26
 
-* [Open for suggestions](404.html) - everyone
+* [Open for suggestions](404page.html) - everyone
 
 ### Friday, 2018-04-27
 
@@ -162,9 +162,9 @@ Here are some aspects of LSSS and acoustic data collection and house-keeping tha
 
 * [Broad-band capable echosounders, big data](404page.html)
 
-* [Standardizing Hafró/MFRI processing of acoustics data](404.html)
+* [Standardizing Hafró/MFRI processing of acoustics data](404page.html)
 
-* [Central DB of survey results, read-only](404.html)
+* [Central DB of survey results, read-only](404page.html)
 
 * [Testing out Deep Vision acoustic integration with LSSS](https://www.deepvision.no/deep-vision-acoustic-integration)
 
@@ -172,7 +172,7 @@ Here are some aspects of LSSS and acoustic data collection and house-keeping tha
 
 ## Addendums
 
-* [Bits and pieces](404.html) - collection of stuff made in the follow-up to the course and workshop.
+* [Bits and pieces](404page.html) - collection of stuff made in the follow-up to the course and workshop.
 
 # Citations
 ___
