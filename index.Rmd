@@ -23,10 +23,9 @@ is lifted from 'http://github.com/fishvice/tcrenv').
 * The source code for the course material is located at:
   https://github.com/sigurdurthorjonsson/lsss_course
 
-* The course product will be rendered LATER IN MARCH and during APRIL at:
+* The course product will be rendered in 'Dymbilvikan' and revised as we progress during April at:
   http://www.hafro.is/~sigurdur/lsss_course
   
-__NOTE This does not apply automatically data sets and IMR materials__ _CHECK_WITH Rolf for the IMR course materials, and owners of data_  
 
 ## In preparation
 
@@ -73,12 +72,11 @@ Acoustic data and course materials from previous LSSS-courses, held both at Hafr
 ### LSSS-course materials
 
 Course materials from a course held at IMR in Bergen in Febrary 2018
-are are available, courtesy of Rolf Korneliussen and colleagues, in
-folder:
+are are available (and also earlier LSSS-courses we've commisioned or attended), courtesy of Rolf Korneliussen and colleagues, are to be found under `bergmal` in folder:
 
 `LSSS_namskeid/LSSS_Bergen_Feb_2018`
 
-with 4 sub-directories pdf-s of help files and presentations:
+with 4 sub-directories containing pdf-s of help files and presentations:
 
 
 - `1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc` with PDF-help accompanying LSSS and its modules,
@@ -86,16 +84,20 @@ with 4 sub-directories pdf-s of help files and presentations:
 
 - ` 2_ACOUSTICS` has materials on acoustics and application in fisheries research
 
-- `3_LSSS_BASIC` has extensive materials regarding basic use of LSSS suitable for selfstudy during eastet :-), and finally
+- `3_LSSS_BASIC` has extensive materials regarding basic use of LSSS suitable for selfstudy during easter :-), and finally
 
 - `4_LSSS_ADVANCED` has course materials from the advanced part of an LSSS-course
 
-### A significant proportion of the acoustic data collection of
-    Hafró is available in the directory `EK60raw`, organized in
-    subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes survey
-    vessel). Course/workshop participants can locate surveys of
-    interest, copy them to their personal drives and set up analysis
-    in LSSS.
+### Acoustic data
+
+A significant proportion of the acoustic data collection of
+Hafró is available under `bergmal` in the directory `EK60raw`, organized in
+subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes survey
+vessel). Course/workshop participants can locate surveys of
+interest, copy them to their personal drives and set up analysis
+in LSSS.
+
+We have established and aim to maintain a comprehensive but read-only version of `LSSS_DATA` from our surveys in this area of Hafró-net, existing data in that directory have yet to be quality assured and the that process has to be formalized (along with LSSS-database synchronization) and disciplined somewhat. See  (missing chapter in) 'gæðahandbók' for acoustic surveys.
 
  
 # A draft workplan
