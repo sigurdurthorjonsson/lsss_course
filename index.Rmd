@@ -72,62 +72,23 @@ Acoustic data and course materials from previous LSSS-courses, held both at Hafr
 
 ### LSSS-course materials
 
-Course materials from a course held at IMR in Bergen in Febrary 2018 are are available, courtesy of Rolf Korneliussen and colleagues, in folder:
+Course materials from a course held at IMR in Bergen in Febrary 2018
+are are available, courtesy of Rolf Korneliussen and colleagues, in
+folder:
 
 `LSSS_namskeid/LSSS_Bergen_Feb_2018`
 
-Here's a listing of 4 directories pdf-s of help files and presentations:
+with 4 sub-directories pdf-s of help files and presentations:
 
 
-#### PDF-help accompanying LSSS
-
-hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1012] ls 1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/*.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/DeepVision.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/Korona.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/LSSS.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROFOS-Korona.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROFOS.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROMUS-korona.pdf
-1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc2/PROMUS.pdf
-
-#### Theory of acoustics
-
-hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1013] ls 2_ACOUSTICS/*.pdf
-2_ACOUSTICS/14_Advanced__Broadband_acoustics.pdf
-2_ACOUSTICS/General_fishery_acoustics.pdf
-2_ACOUSTICS/Multifrequency_acoustics.pdf
-2_ACOUSTICS/Synthesis_2002_11_27_corrected.pdf
-
-#### Course materials from the basics part of an LSSS-course
-
-hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1014] ls 3_LSSS_BASIC/*.pdf
-3_LSSS_BASIC/0_Basic_LSSS__Norway.pdf
-3_LSSS_BASIC/10Basic_LSSS__What_is_new_in_V230.pdf
-3_LSSS_BASIC/14_Advanced__Broadband_acoustics.pdf
-3_LSSS_BASIC/1_Basic_LSSS__Introductions.pdf
-3_LSSS_BASIC/2_Basic_LSSS__Getting_started.pdf
-3_LSSS_BASIC/3_Basic_LSSS__Installation__selfstudy.pdf
-3_LSSS_BASIC/4_Basic_LSSS__Application_setup__selfstudy.pdf
-3_LSSS_BASIC/5_Basic_LSSS__Survey_FirstTimeSetup_selfstudy.pdf
-3_LSSS_BASIC/6_Basic_LSSS__Scrutinize.pdf
-3_LSSS_BASIC/7_Basic_LSSS__Report_generation_and_export.pdf
-3_LSSS_BASIC/8_Basic_LSSS__Data_administration.pdf
-3_LSSS_BASIC/9_Basic_LSSS__Troubleshooting_and_tips.pdf
-
-#### Course materials from the advanced part of an LSSS-course
-
-hafstokkur/u5/bergmal/LSSS_namskeid/LSSS_Bergen_feb18/2018_LSSS_COURSE_MATERIAL [1015] ls 4_LSSS_ADVANCED/*.pdf
-4_LSSS_ADVANCED/11_Advanced_KORONA__Introductions.pdf
-4_LSSS_ADVANCED/12_Advanced_KORONA__Design.pdf
-4_LSSS_ADVANCED/13_Advanced_KORONA_Getting_started.pdf
-4_LSSS_ADVANCED/14_Advanced__Broadband_acoustics.pdf
-4_LSSS_ADVANCED/15_Advanced_LSSS_Broadband_functionality.pdf
-4_LSSS_ADVANCED/16_Advanced_KORONA_4_ModuleSetup.pdf
-4_LSSS_ADVANCED/17_Advanced_KORONA_6_Scrutinize_s.pdf
-4_LSSS_ADVANCED/18_Advanced_KORONA_7_Categorization.pdf
-4_LSSS_ADVANCED/19_Advanced_KORONA_8_Troubleshooting_and_tip_s.pdf
+- `1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc` with PDF-help accompanying LSSS and its modules,
 
 
+- ` 2_ACOUSTICS` has materials on acoustics and application in fisheries research
+
+- `3_LSSS_BASIC` has extensive materials regarding basic use of LSSS suitable for selfstudy during eastet :-), and finally
+
+- `4_LSSS_ADVANCED` has course materials from the advanced part of an LSSS-course
 
 ### A significant proportion of the acoustic data collection of
     Hafró is available in the directory `EK60raw`, organized in
@@ -161,13 +122,13 @@ shuffle things around._
 * [Scrutiny workshop continued](404.html) - everyone
 * [Comparison of results](404.html) - everyone
 
-### Friday, 2018-04-13
+### Monday, 2018-04-16
 
 * [Categorization of blue whiting](404.html) - ahó, gjó, sþj, ... 
 
-### Monday, 2018-04-16
+### Thursday, 2018-04-17
 
-* [Working the bottom](404.html) - bb, jmb, sþj
+* [Bottom as a reference](404.html) - bb, jmb, sþj
 
 ### Monday, 2018-04-23
 
