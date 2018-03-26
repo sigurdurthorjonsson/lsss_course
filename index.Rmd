@@ -23,7 +23,7 @@ is lifted from 'http://github.com/fishvice/tcrenv').
 * The source code for the course material is located at:
   https://github.com/sigurdurthorjonsson/lsss_course
 
-* The course product will be rendered in 'Dymbilvikan' and revised as we progress during April at:
+* The course product will be rendered in 'Holy week/Dymbilvikan' and revised as we progress during April at:
   http://www.hafro.is/~sigurdur/lsss_course
   
 
@@ -82,9 +82,9 @@ with 4 sub-directories containing pdf-s of help files and presentations:
 - `1_LSSS_CURRENT_VERSION/DOCUMENTATION_LSSS_2_3_0_rc` with PDF-help accompanying LSSS and its modules,
 
 
-- ` 2_ACOUSTICS` has materials on acoustics and application in fisheries research
+- ` 2_ACOUSTICS` has materials on acoustics and application in fisheries research,
 
-- `3_LSSS_BASIC` has extensive materials regarding basic use of LSSS suitable for selfstudy during easter :-), and finally
+- `3_LSSS_BASIC` has extensive materials regarding basic use of LSSS suitable for selfstudy during easter :-), and finally:
 
 - `4_LSSS_ADVANCED` has course materials from the advanced part of an LSSS-course
 
@@ -92,19 +92,18 @@ with 4 sub-directories containing pdf-s of help files and presentations:
 
 A significant proportion of the acoustic data collection of
 Hafró is available under `bergmal` in the directory `EK60raw`, organized in
-subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes survey
-vessel). Course/workshop participants can locate surveys of
+subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes wether the survey was conducted on Árni or Bjarni). Course/workshop participants can locate surveys of
 interest, copy them to their personal drives and set up analysis
 in LSSS.
 
-We have established and aim to maintain a comprehensive but read-only version of `LSSS_DATA` from our surveys in this area of Hafró-net, existing data in that directory have yet to be quality assured and the that process has to be formalized (along with LSSS-database synchronization) and disciplined somewhat. See  (missing chapter in) 'gæðahandbók' for acoustic surveys.
+We have established and aim to maintain a comprehensive but read-only version of `LSSS_DATA` from our surveys in this area of Hafró-net, existing data in that directory have yet to be quality assured and the that process has to be formalized and disciplined somewhat (along with LSSS-database synchronization). See  (missing chapter in) 'gæðahandbók' for acoustic surveys.
 
  
 # A draft workplan
 ___
 
 ## Part I
-___
+
 
 The course will be held in the meeting room on the first floor, there
 is space for 10-15 people, on an 'early bird gets a seat' basis. Bring
@@ -151,11 +150,11 @@ shuffle things around._
     * [Next steps in LSSS](404page.html)
 
 ## Part II or to be continued
-___
 
-Prior to multi-vessels surveys we will aim for 1/2- or 1-day crash courses for the personnel manning the aocustic intstruments.
 
-We'll probably get instructors from IMR/Marec for an LSSS-course in the not to distant future. 
+Prior to multi-vessel surveys we will aim for 1/2- or 1-day crash courses for the personnel manning the acoustic instruments.
+
+We'll probably get instructors from IMR/Marec for a full LSSS-course in the not to distant future. 
 
 Here are some aspects of LSSS and acoustic data collection and house-keeping that need to be considered:
 
