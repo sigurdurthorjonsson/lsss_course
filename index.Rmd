@@ -42,7 +42,7 @@ program.
 * LSSS version 2.3.0, for a local install follow Gunnar Örvarsson's instructions:
 
     - Windows: Windows version of LSSS 2.3.0 is available on a
-      package-directory, m:\inst\lsss on shore on server hafkaldi, on
+      package-directory, `m:\inst\lsss` on shore on server hafkaldi, on
       board the vessels on server stórsjór (on Árni) or úthaf (on
       Bjarni)).
 
@@ -65,6 +65,12 @@ For those that want to get a head we recommend the following reading material:
   * The ICES calibration CRR [@demer2015]
   * Rolf _et al._'s recent paper on categorization with LSSS [@korneliussen2017]
 
+'Bergmálshandbók Hafró' or the MFRI acoustics manual has been given
+[bookdown-treatment](https://github.com/sigurdurthorjonsson/bergmals_handbok)
+and can now be found with a couple of new appendices
+[online](http://www.hafro.is/~sigurdur/bergmals_handbok). The
+LSSS-course/workshop will hopefully yield additions/improvements to the manual.
+ 
 ## Collection of material from previous courses and acoustic data on Hafró-net
 
 Acoustic data and course materials from previous LSSS-courses, held both at Hafró and at IMR, Bergen, are available on file server Hafrún, accessible as `/u5/bergmal` in linux, Windows users can gain access by typing in `\\hafrun\u5\` in the address bar of Windows File Explorer and then descend into the folder `bergmal`. 
