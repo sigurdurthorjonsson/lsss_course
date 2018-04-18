@@ -59,11 +59,36 @@ colliding with high acoustic survey activity (January/February,
 September/October). __Marec/IMR in Bergen will open up for dongle-less
 use of the program in April.__
 
+### Simrad's EK-programs
+
+Prior to the course recent installation programs for Simrad ER60
+(current) and EK80 (future) scientific echosounder programs were made
+available on Hafro-net by Björn Sigurðarson, in folder:
+
+  * `v:\bi500\Simrad` on Windows
+  * `/net/hafkaldi/export/u3/bi500/Simrad` on linux
+
+Documentation for these programs and other materials can be found by following [this](https://www.simrad.com/www/01/nokbg0237.nsf/AllWeb/D45E29163DDC0921C1257106003C8C78?OpenDocument) link to Simrad's website. The following links lead directly to the reference manuals:
+
+  * For [EK60](https://www.simrad.com/www/01/NOKBG0397.nsf/AllWeb/F2AB311B3F6E6B15C1257106003E0806/$file/164692ad_ek60_reference_manual_english_lores.pdf?OpenElement)
+  * For [EK80](https://www.simrad.com/www/01/NOKBG0397.nsf/AllWeb/AFFDFFE472BCFBF7C1257E5100291B04/$file/395234af_ek80_reference_manual_a4_english.pdf?OpenElement)
+
+Note that the program ER60 runs the EK60 echosounders, but for the new generation the program and the sounder are synonymous and both called EK80.
+
+### Some literature
+
 For those that want to get a head we recommend the following reading material:
 
   * Simmonds & MacLennan's Fisheries Acoustics [@simmonds2005]
   * The ICES calibration CRR [@demer2015]
   * Rolf _et al._'s recent paper on categorization with LSSS [@korneliussen2017]
+
+On Monday 16th mention was made of the `scrutiny workshop` held by
+participants in the IESNS (May) survey in Reykjavík in March 2015. The
+report of the workshop was added as an appendix to an ICES report of
+the WKSCRUT workshop held in the autumn the same year:
+
+  * [Report of the ICES scrutiny worshop](http://ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/SSGIEOM/2015/WKSCRUT15.pdf) with the IESNS workshop report as an addendum [@ices2015] 
 
 'Bergmálshandbók Hafró' or the MFRI acoustics manual has been given
 [bookdown-treatment](https://github.com/sigurdurthorjonsson/bergmals_handbok)
@@ -102,7 +127,7 @@ subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes wether the survey was
 interest, copy them to their personal drives and set up analysis
 in LSSS.
 
-We have established and aim to maintain a comprehensive but read-only version of `LSSS_DATA` from our surveys in this area of Hafró-net, existing data in that directory have yet to be quality assured and the that process has to be formalized and disciplined somewhat (along with LSSS-database synchronization). See  (missing chapter in) 'gæðahandbók' for acoustic surveys.
+We have established and aim to maintain a comprehensive but read-only version of `LSSS_DATA` from our surveys in this area of Hafró-net, existing data in that directory have yet to be quality assured and the process has to be formalized and disciplined somewhat (along with LSSS-database synchronization). See  (missing chapter in) 'gæðahandbók' for acoustic surveys.
 
  
 # A draft workplan
@@ -118,59 +143,69 @@ __13:00-16:00__ on days the course is given / we meet for a
 workshop. _Note that the themes and intitals are tentative, and we may
 shuffle things around._
 
-### Wednesday, 2018-04-04
+### WEEK 1
 
-* [Introduction to LSSS](404page.html) - sþj
-* [Basic use of LSSS](404page.html) - sþj 
-* [Scrutiny workshop](404page.html) - everyone
+#### Wednesday, 2018-04-04
+
+* Introduction to LSSS - sþj
+* Basic use of LSSS - sþj 
+* Scrutiny workshop - everyone
     
-### Thursday, 2018-04-05
+#### Thursday, 2018-04-05
 
-* [Scrutiny workshop continued](404page.html) - everyone
-* [Comparison of results](404page.html) - everyone
+* Scrutiny workshop continued - everyone
+* Comparison of results - everyone
 
-### Monday, 2018-04-16
+Some notes from the first two sessions are available [here](week1.html).
 
-* [Categorization of blue whiting](404page.html) - ahó, gjó, sþj, ... 
+### WEEK 2
 
-### Thursday, 2018-04-17
+#### Monday, 2018-04-16
 
-* [Bottom as a reference](404page.html) - bb, jmb, sþj
+* Categorization of blue whiting - ahó, gjó, sþj, ... 
 
-### Monday, 2018-04-23
+#### Thursday, 2018-04-17
 
-* [Multifrequency categorization with LSSS](404page.html) - pr
+* Bottom as a reference - bb, sþj
 
-### Tuesday, 2018-04-24
+Some notes from sessions three and four are available [here](week2.html).
 
-* [Multifrequency categorization with LSSS contd.](404page.html) - pr
+### WEEK 3
 
-### Thursday, 2018-04-26
+#### Monday, 2018-04-23
 
-* [Open for suggestions](404page.html) - everyone
+* Multifrequency categorization with LSSS - pr
 
-### Friday, 2018-04-27
+#### Tuesday, 2018-04-24
+
+* Multifrequency categorization with LSSS contd. - pr
+
+#### Thursday, 2018-04-26
+
+* Open for suggestions - everyone
+
+#### Friday, 2018-04-27
 
 * 13:00 - "Happy hour"
-    * [Any other LSSS-buissness]()
-    * [Next steps in LSSS](404page.html)
+    * Any other LSSS-buissness
+    * Next steps in LSSS
 
 ## Part II or to be continued
 
 
 Prior to multi-vessel surveys we will aim for 1/2- or 1-day crash courses for the personnel manning the acoustic instruments.
 
-We'll probably get instructors from IMR/Marec for a full LSSS-course in the not to distant future. 
+We'll probably get instructors from IMR/Marec for a full LSSS-course in the not too distant future. 
 
 Here are some aspects of LSSS and acoustic data collection and house-keeping that need to be considered:
 
-* [Utilization of sonar in fisheries research](404page.html)
+* Utilization of sonar in fisheries research
 
-* [Broad-band capable echosounders, big data](404page.html)
+* Broad-band capable echosounders, big data
 
-* [Standardizing Hafró/MFRI processing of acoustics data](404page.html)
+* Standardizing Hafró/MFRI processing of acoustics data.
 
-* [Central DB of survey results, read-only](404page.html)
+* Central DB of survey results, read-only.
 
 * [Testing out Deep Vision acoustic integration with LSSS](https://www.deepvision.no/deep-vision-acoustic-integration)
 
@@ -178,7 +213,7 @@ Here are some aspects of LSSS and acoustic data collection and house-keeping tha
 
 ## Addendums
 
-* [Bits and pieces](404page.html) - collection of stuff made in the follow-up to the course and workshop.
+* Bits and pieces - collection of stuff made in the follow-up to the course and workshop.
 
 # Citations
 ___
