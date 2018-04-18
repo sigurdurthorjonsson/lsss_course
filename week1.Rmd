@@ -1,0 +1,109 @@
+---
+title: "Notes from week 1, Wednesday--Thursday 4--5 April"
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(warning = FALSE,
+                      message = FALSE)
+```
+
+# Intro to LSSS
+___
+
+## History of digital acoustics at Hafró
+
+Simrad EK500 arrived on the scene at the start of the 1990s. We have a
+historic collection of acoustic data starting in 1992. The data set in
+the old format was moved from backup-tapes to portable hard disks and
+stored on a net drive a few years back. Reduced resolution as compared
+to more recent data.
+
+We are in the process of setting up a comprehensive collection of
+acoustics in the EK60 format, see ACDC-section.
+
+The next generation of echosounders with broadband capabilities
+produce more volumnious data than current systems, the diffrence can
+be between 1 and 3 orders of magnitude (somewhere between 10 to a 1000
+fold).
+
+## History of acoustics data post-processing at Hafró
+
+Simrad BI500 was the post-processing program shipped with the
+EK500. Was developed further at IMR in Bergen as BEI, which Hafró
+never took into use. Multi-frequency post-processing introduced with
+KORONA close to the start of the new millenium. Collaboration between
+IMR and CMR in Bergen in ~2007-2008 resulted in LSSS which Hafró took
+into use in 2011 after a period of experimentation with EchoView
+(without it being adopted for wholehearted use).
+
+# Basic LSSS
+___
+
+Went trough basic workings of LSSS, showed how to set up the program
+and set up a survey, demonstrated the functionality of tools in LSSS,
+showed interpretations, saving to data base, report generations,
+survey backup, ... .
+
+# Scrutiny workshop
+___
+
+Participants started on interpretation of a winter capelin
+survey. Practiced using LSSS. We did not reach the stage of comparing
+results of all participants which might be tried for the next time
+around.
+
+# AC/DC or the Hafró ACoustic Data Collection
+
+At the start of the workshop a script tallying the data was shown, here are the bare bones of script to document the data usage:
+
+The libraries we use:
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(fs)
+```
+
+Collectiong the info from the file system, a little weighty operation, so I saved the results:
+
+```{r}
+#
+#dir_info("/u5/bergmal/EK60raw", recursive = TRUE, glob = "*.raw") -> raw_files
+#saveRDS(raw_files, "raw_files.rds")
+
+raw_files <- readRDS("raw_files.rds")
+```
+
+The data that have been copied to the `/u5/bergmal/EK60raw` now amount to `r sum(raw_files$size)`.
+
+Breakdown by year:
+
+```{r}
+raw_files %>%
+  mutate(yyyy = year(modification_time)) %>%
+  group_by(yyyy) %>%
+  summarize(n = n(),
+            tot_size = sum(size)) %>%
+  mutate(avg_size = tot_size/n)
+```
+
+
+The raw file permissions status on the net, details on how to work with permissions to be added:
+
+```{r}
+raw_files %>% group_by(user, permissions) %>% summarize(n = n())
+```
+
+The daily collection on the two vessels (in the data on the net-drive) averages by year:
+
+```{r}
+raw_files %>%
+  mutate(yyyy = year(modification_time),
+         date = date(modification_time),
+         ship = substring(path, 21, 21)) %>%
+  group_by(yyyy, ship, date) %>%
+  summarize(size = sum(size)) %>%
+  summarize(avg_daily_size = mean(size)/(2^20)) %>%
+  ggplot() +
+    geom_line(aes(yyyy, avg_daily_size, colour = ship))
+ ```
