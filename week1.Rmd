@@ -74,7 +74,7 @@ Collectiong the info from the file system, a little weighty operation, so I save
 raw_files <- readRDS("raw_files.rds")
 ```
 
-The data that have been copied to the `/u5/bergmal/EK60raw` now amount to `r sum(raw_files$size)`.
+The data that have been copied to the `/u5/bergmal/EK60raw` now amount to `r sum(raw_files$size)` bytes.
 
 Breakdown by year:
 
@@ -105,5 +105,5 @@ raw_files %>%
   summarize(size = sum(size)) %>%
   summarize(avg_daily_size = mean(size)/(2^20)) %>%
   ggplot() +
-    geom_line(aes(yyyy, avg_daily_size, colour = ship))
+    geom_line(aes(yyyy, avg_daily_size, group = ship, colour = ship))
  ```
