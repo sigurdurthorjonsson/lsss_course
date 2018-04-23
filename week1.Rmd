@@ -22,7 +22,7 @@ We are in the process of setting up a comprehensive collection of
 acoustics in the EK60 format, see ACDC-section.
 
 The next generation of echosounders with broadband capabilities
-produce more volumnious data than current systems, the diffrence can
+produce more volumnious data than current systems, the difference can
 be between 1 and 3 orders of magnitude (somewhere between 10 to a 1000
 fold).
 
@@ -41,7 +41,7 @@ ___
 
 Went trough basic workings of LSSS, showed how to set up the program
 and set up a survey, demonstrated the functionality of tools in LSSS,
-showed interpretations, saving to data base, report generations,
+showed interpretations, saving to data base, report generation,
 survey backup, ... .
 
 # Scrutiny workshop
@@ -54,7 +54,7 @@ around.
 
 # AC/DC or the Hafró ACoustic Data Collection
 
-At the start of the workshop a script tallying the data was shown, here are the bare bones of script to document the data usage:
+At the start of the workshop a script tallying the data was shown, here are the bare bones of a script to document the data usage:
 
 The libraries we use:
 
@@ -64,7 +64,7 @@ library(lubridate)
 library(fs)
 ```
 
-Collectiong the info from the file system, a little weighty operation, so I saved the results:
+Collecting the info from the file system, a little weighty operation, so I saved the results:
 
 ```{r}
 #
@@ -74,7 +74,7 @@ Collectiong the info from the file system, a little weighty operation, so I save
 raw_files <- readRDS("raw_files.rds")
 ```
 
-The data that have been copied to the `/u5/bergmal/EK60raw` now amount to `r sum(raw_files$size)` bytes.
+The data that have been copied to the `/u5/bergmal/EK60raw` directory as of now amount to `r sum(raw_files$size)` bytes (or kilobytes, neat class format gets messed up here :-).
 
 Breakdown by year:
 
@@ -102,8 +102,8 @@ raw_files %>%
          date = date(modification_time),
          ship = substring(path, 21, 21)) %>%
   group_by(yyyy, ship, date) %>%
-  summarize(size = sum(size)) %>%
-  summarize(avg_daily_size = mean(size)/(2^20)) %>%
+  summarize(daily_vol = sum(size)) %>%
+  summarize(daily_vol = mean(daily_vol)/(2^20)) %>%
   ggplot() +
-    geom_line(aes(yyyy, avg_daily_size, group = ship, colour = ship))
+    geom_line(aes(yyyy, daily_vol, group = ship, colour = ship))
  ```
