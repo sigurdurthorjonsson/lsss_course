@@ -1,0 +1,74 @@
+---
+title: "Notes from week 2, Monday--Tuesday 16--17 April"
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(warning = FALSE,
+                      message = FALSE)
+```
+
+# Blue whiting interpretation
+___
+
+Examples were shown from three types of survey where blue whiting
+occur and are interpreted either as a species of secondary interest to
+the main purpose of the survey (Herring survey and May survey) or a
+survey where the intention is to make use of a blue whiting estimate
+in the stock assessment (Mackerel survey). See [Report of the ICES
+scrutiny worshop](http://ices.dk/sites/pub/Publication%2
+0Reports/Expert%20Group%20Report/SSGIEOM/2015/WKSCRUT15.pdf) with the
+IESNS work shop report as an addendum for discussions on blue whiting
+scrutiny and interpretation and common pitfalls encounterered.
+
+## Herring survey February 2018
+
+Recent examples of blue whiting to the SE of Iceland and a general
+discussion of the blue whiting coverage on our surveys through the
+years.
+
+## May survey 2017
+
+A layer of blue whiting registrations interspersed with small but
+stronger schools of herring, interpreted as LSSS-layer region for blue
+whiting but the herring treated a school regions within the bw-layer
+depth range. The ground truthing of blue whiting registrations is
+often weak due to time constraints on the survey.
+
+## Mackerel survey 2017
+
+Weak registations allocated to blue whiting by opening up a layer with
+zero initial thickness. It was discussed that thresholding that was
+applied may have been unnecessary with this approach.
+
+# Bottom as a reference
+___
+
+Attempts have been made of using the bottom as a reference on winter
+capelin surveys 2017 and 2018. Analysis of the data has not been
+finished.  An ICES WGFAST workshop WKQUAD has used data from capelin
+surveys as an example of attenuation loss due to bad weather not
+easily detected but evidenced in generally weaker bottom return.
+
+# Simple KORONA processing
+___
+
+## Thumbnails
+
+An example was shown of how to make 'thumbnail' or a thinned version
+of one frequency on many surveys together as a single (virtual)
+survey. With a simple KORONA module setup throwing out other
+frequencies, deleting the angle information, binning the data
+vertically to ~1 m and keeping only every 5th ping a ~1000 reduction
+in data volume was achieved. By linking to all idx- and raw-files in
+many survey directories from a single 'virtual survey' directory a
+large number of files can be crunched in one go. See Korona help for a
+method of running such a job in BATCH mode on a capable computer with
+access to the EK60 data set.
+
+## Bottom integration
+
+The KORONA 'remove bottom' module has potential for use in bottom
+work, its functionality has recently been expanded to make it possible
+_i.a._ to __keep__ just a bottom layer of a specfic
+thickness. However, it has been problematic to get the module to work
+as intended, work in progress, hopefully.
