@@ -69,6 +69,6 @@ access to the EK60 data set.
 
 The KORONA 'remove bottom' module has potential for use in bottom
 work, its functionality has recently been expanded to make it possible
-_i.a._ to __keep__ just a bottom layer of a specfic
-thickness. However, it has been problematic to get the module to work
-as intended, work in progress, hopefully.
+_i.a._ to __keep__ just a bottom layer of a specfic thickness. An
+example module configuration achieving that is available
+[here](files/korona_bottom_processing.cds).
